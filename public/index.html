@@ -14,7 +14,7 @@
 		var hostName = window.location.host;
 		
 		var socket = io.connect(hostName);
-		driveCarbyAmber.mybluemix.net
+		DriveCarbyAmber.mybluemix.net
 		socket.on("message", function (data) {
 			console.log("socket data: " + data);
 			// console.log(typeof(data));
